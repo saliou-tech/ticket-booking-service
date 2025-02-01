@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profiles>
+    <profile>
+        <id>Spotless</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <properties>
+            <!-- General Formatting -->
+            <org.eclipse.jdt.core.formatter.tabulation.char>space</org.eclipse.jdt.core.formatter.tabulation.char>
+            <org.eclipse.jdt.core.formatter.tabulation.size>4</org.eclipse.jdt.core.formatter.tabulation.size>
+            <org.eclipse.jdt.core.formatter.lineSplit>120</org.eclipse.jdt.core.formatter.lineSplit>
+
+            <!-- Braces -->
+            <org.eclipse.jdt.core.formatter.brace_position_for_type_declaration>next_line</org.eclipse.jdt.core.formatter.brace_position_for_type_declaration>
+            <org.eclipse.jdt.core.formatter.brace_position_for_method_declaration>same_line</org.eclipse.jdt.core.formatter.brace_position_for_method_declaration>
+            <org.eclipse.jdt.core.formatter.brace_position_for_constructor_declaration>same_line</org.eclipse.jdt.core.formatter.brace_position_for_constructor_declaration>
+            <org.eclipse.jdt.core.formatter.brace_position_for_block>same_line</org.eclipse.jdt.core.formatter.brace_position_for_block>
+
+            <!-- Indentation -->
+            <org.eclipse.jdt.core.formatter.indentation.size_for_switch>4</org.eclipse.jdt.core.formatter.indentation.size_for_switch>
+
+            <!-- Comments -->
+            <org.eclipse.jdt.core.formatter.comment.format_block_comments>true</org.eclipse.jdt.core.formatter.comment.format_block_comments>
+            <org.eclipse.jdt.core.formatter.comment.format_line_comments>true</org.eclipse.jdt.core.formatter.comment.format_line_comments>
+            <org.eclipse.jdt.core.formatter.comment.format_javadoc>true</org.eclipse.jdt.core.formatter.comment.format_javadoc>
+
+            <!-- Organize Imports -->
+            <org.eclipse.jdt.core.formatter.organize_imports>true</org.eclipse.jdt.core.formatter.organize_imports>
+        </properties>
+    </profile>
+</profiles>
