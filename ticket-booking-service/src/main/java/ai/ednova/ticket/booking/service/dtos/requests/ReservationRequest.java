@@ -1,6 +1,6 @@
 package ai.ednova.ticket.booking.service.dtos.requests;
 
-import java.time.LocalDateTime;
+import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,10 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class EventRequest {
-  private String name;
-  private String description;
-  private String location;
-  private LocalDateTime date;
-  private Integer totalSeats;
+public class ReservationRequest {
+  private UUID userId;
+  private UUID eventId;
+  private Integer seatNumber;
 }
